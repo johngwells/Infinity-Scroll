@@ -14,7 +14,7 @@ body {
 h1 {
   text-align: center;
   margin-top: 2.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
   font-size: 3rem;
   letter-spacing: 5px;
 }
@@ -26,7 +26,7 @@ h1 {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .loader img {
@@ -34,4 +34,54 @@ h1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* Image */
+.image-container {
+  margin: 1rem 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+/* Ipad Pro */
+@media screen and (max-width: 1024px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .image-container {
+    margin: 1rem;
+  }
+}
+
+/* Ipad */
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  .image-container {
+    margin: 1rem;
+  }
+}
+
+/* Phones */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .image-container {
+    margin: 1rem;
+  }
+}
+
+/* 320 */
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: .8rem;
+  }
+  .image-container {
+    margin: .5rem;
+  }
 }
