@@ -10,11 +10,12 @@ let photosArray = [];
 
 // Create Elements Links/Photos
 function displayPhotos() {
-  photosArray.forEach(photo => {
+  photosArray.forEach((photo) => {
+    // console.log(photo.links.html);
     // <a> to link unsplash
     const item = document.createElement('a');
     item.setAttribute('href', photo.links.html);
-    item.setAttribute('target', '_blank')
+    item.setAttribute('target', '_blank');
     // <img> for photo
     const img = document.createElement('img');
     img.setAttribute('src', photo.urls.regular);
