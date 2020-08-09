@@ -27,7 +27,6 @@ function displayPhotos() {
   });
 }
 
-// Get photos
 async function getPhotos() {
   try {
     const response = await fetch(apiUrl);
@@ -38,5 +37,4 @@ async function getPhotos() {
   }
 }
 
-// on Load
 getPhotos();
