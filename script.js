@@ -1,5 +1,5 @@
 // Unsplash API
-const count = 30;
+const count = 10; // initial load then afterwards 30 per scroll (Better performance on load)
 const apiKey = 'Qwq8MQIcjcNXNBxrmOD9Nt0tHBssOB-xQb1zwtppvw0';
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${apiKey}&count=${count}`;
 
